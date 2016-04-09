@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="homeApp">
+<html lang="en" ng-app="homeApp" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +7,15 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <link rel="shortcut icon" text="image/x-icon" href="./app/img/icon.png">
-    <title>Home</title>
-    <script src="./vendor/angular.min.js"></script>
-    <script src="./vendor/angular-route.min.js"></script>
-    <script src="./vendor/jquery-1.11.3.min.js"></script>
+    <title>YehDekh</title>
     <link rel="stylesheet" type="text/css" href="./style/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style/css/dist/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="./style/css/bootstrap-theme.min.css">
 </head>
-<header class="page-header panel-heading panel-primary ">
-    <a class="nav-tabs" href="./app.html">My Collection</a>
-    <nav class="navbar navbar-nav navbar-right nav-tabs nav-divider">
-      <a href=""><span class="glyphicon-camera">photo</span></a>
-      <a href=""><span class="glyphicon-book">books</span></a>
-
-    </nav>
-</header>
-</div>
+<body>
+<div ng-view></div>
+<script src="./vendor/jquery-1.11.3.min.js"></script>
+<script src="./vendor/angular.min.js"></script>
+<script src="./vendor/angular-route.min.js"></script>
 </body>
 </html>
