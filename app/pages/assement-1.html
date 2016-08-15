@@ -111,10 +111,12 @@
 </footer>
 <script>
 
-    let s = document.querySelector('small');
+    let s = document.querySelectorAll('small');
     let d = Date().toString();
     d = d.substr(0, 15);
-    s.textContent = d;
+    for(let index=0; index < s.length; index++ ) {
+        s[index].textContent = d;;
+    }
 </script>
 </body>
 </html>
