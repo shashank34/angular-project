@@ -1,0 +1,23 @@
+.header-aside {
+    text-align: right;
+}
+
+body {
+    background-color: cornsilk;
+    margin: 0px 50px 4px 50px;
+}
+.main-address {
+    text-align: left;
+    margin: 40px auto;
+}
+
+/*
+q.quotation:before {
+    content: '""'
+}
+
+q.quotation:after {
+    content: '""'
+}
+//    'use strict';
+*/

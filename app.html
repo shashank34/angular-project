@@ -11,11 +11,13 @@
     <link rel="stylesheet" type="text/css" href="./style/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./style/css/dist/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="./style/css/bootstrap-theme.min.css">
+    <script src="./vendor/jquery-1.11.3.min.js"></script>
+    <script src="./vendor/angular.min.js"></script>
 </head>
-<body>
+<body ng-app="">
+<div ng-controller="">
 <div ng-view></div>
-<script src="./vendor/jquery-1.11.3.min.js"></script>
-<script src="./vendor/angular.min.js"></script>
+    </div>
 <script src="./vendor/angular-route.min.js"></script>
 <script src="./vendor/angular-google-maps.min.js"></script>
 <script src="./vendor/lodash.min.js"></script>

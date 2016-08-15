@@ -1,0 +1,21 @@
+{
+  "name": "projectAngular",
+  "homepage": "https://github.com/shashank34/angular-project",
+  "authors": [
+    "shashanks121 <shashanks835@gmail.com>"
+  ],
+  "description": "demo",
+  "main": "app.html",
+  "keywords": [
+    "resto"
+  ],
+  "license": "iik",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
