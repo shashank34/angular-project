@@ -1,0 +1,155 @@
+
+@font-face {
+    font-family: "customFont";
+    src: url("../font-family/Escobeta_One_FFP.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'customFont', serif;
+}
+
+body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    font-family: 'customFont', serif;
+    line-height: 1.8em;
+    letter-spacing: .2em;
+    word-spacing: .1em;
+}
+
+/* Layout */
+
+section {
+    float: left;
+    width: 50%;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+nav {
+    float: left;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+    font-size: 2em;
+}
+
+header, section, aside, nav, footer {
+    padding: 20px;
+    font-family: 'customFont', serif;
+}
+
+/* header and footer */
+
+header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+    font-family: 'customFont', serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+header {
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: .4em;
+}
+
+section  h2 {
+    font-size: 1.8em;
+    text-indent: 20px;
+}
+
+section p {
+    font-size: 1.4em;
+}
+
+a:hover {
+    color: gold;
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus {
+    color: darkblue;
+    text-decoration: none;
+    outline: none;
+}
+
+a:visited {
+    color: darkorchid;
+}
+
+a:link {
+    color: darkorange;
+}
+
+a:active {
+    color: black;
+    background: antiquewhite;
+    text-decoration: underline;
+}
+
+a[href^='https']:after {
+    background-image:  url("../img/external-link-52.png");
+    background-size: 10px 20px;
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    content:"";
+}
+
+p:last-child {
+    font-size: 1.6em;
+}
+
+aside h2 {
+    font-size: 1.8em;
+}
+
+p > a {
+    font-size: 1em;
+}
+
+li {
+    font-size: 1.3em;
+    line-height: 1.6em;
+}
+
+section ul li  {
+    list-style-type: square;
+}
+
+section ol li {
+    list-style-type: lower-greek;
+}
+
+aside li {
+    list-style-type: circle;
+}
+
+nav li {
+    list-style-type: none;
+}
+nav li a, nav li a:active {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    width: 100%;
+    margin: 4% auto;
+    text-align: center;
+    list-style: none;
+    box-sizing: border-box;
+    border: 1px solid darkblue;
+    overflow-wrap: break-word;
+    line-height: 3.6em;
+}
