@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'customFont';
+    src: url('../font-family/Escobeta_One_FFP.ttf')
+}
+
+html {
+    font-family: 'customFont', sans-serif;
+}
+
+p {
+    width: 200px;
+    height: 40px;
+    min-width: 200px;
+    font-size: 1.6rem;
+    color: red;
+    text-shadow: 1px -1px #1a0512;
+    background-color: #ff0000;
+    background: linear-gradient(to bottom right, rgba(255,0,0,0.2) 30%, rgba(255,0,0,12) 100%);
+    text-align: center;
+    position: absolute;
+    margin: 1% 29% 29% 39%;
+    padding: 1%;
+    border-radius: 5em;
+    border: 1px solid red;
+    border-style: outset;
+    box-shadow: 11px 9px 16px -4px black;
+
+}
+
+p:hover {
+    cursor: pointer;
+}
